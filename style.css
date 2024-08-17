@@ -10,8 +10,22 @@ body{
     align-items: flex-end;
 }
 
+.bar-container {
+    display: flex;
+    align-items: flex-end;
+    height: 400px; /* Adjust based on desired visual height */
+    width: 100%; /* Adjust based on screen width or fixed value */
+    border: 1px solid #ce1c1c; /* Optional: to visualize the container boundary */
+}
+
 .bar{
     width:30px;
     background-color:seaGreen;
     margin: 2px;
+}
+#controls{
+
+    display:flex;
+    justify-content: center;
+    margin-top: 20px;
 }
